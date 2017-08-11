@@ -1,9 +1,11 @@
 #16sRNA-clustering
 
-Part1:
+Part1
 1.	Using biopython module, firstly find all the gi ids with search criteria “(((Streptococcus[Organism]) AND rRNA[Filter])) AND 16S ribosomal RNA Gene[Text Word]”
 2.	Find the sequences with Seq.IO and write to a fasta file
 3.	The taxids are extracted and saved separately
+
+
 Part2
 1.	Using pairwiseAlignment to pairwise align the sequences and save the scores as the pairwise similarity.
 2.	Convert similary matrix to distance matrix.
